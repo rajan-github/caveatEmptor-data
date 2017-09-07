@@ -31,4 +31,16 @@ public class Shipment {
 		this.auction = auction;
 	}
 
+	public Long getId() {
+		return id;
+	}
+
+	public Item getAuction() {
+		return auction;
+	}
+
+	public void setAuction(Item auction) {
+		this.auction = auction;
+	}
+
 }
